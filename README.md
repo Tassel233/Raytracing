@@ -6,7 +6,7 @@ A simple CPU-based raytracing using OpenGL
 
 
 
----
+------
 
 To generate solution files:
 
@@ -16,5 +16,5 @@ To generate solution files:
 
 `.\premake xcode4` in MacOS
 
----
+------
 
