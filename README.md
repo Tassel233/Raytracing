@@ -2,11 +2,11 @@
 
 
 
-A simple CPU-based raytracing using OpenGL
+A simple CPU-based raytracer using OpenGL.
 
 
 
-------
+## Started
 
 To generate solution files:
 
@@ -15,6 +15,3 @@ To generate solution files:
 `.\premake5 gmake` in Linux
 
 `.\premake xcode4` in MacOS
-
-------
-

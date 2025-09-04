@@ -523,7 +523,6 @@ int main(int argc, char**argv)
 
 
         //This will draw on the right side; 
-
         glUseProgram(ssProgramID);
         glViewport(GLint(window_width / 2.0f), 0, GLsizei(window_width / 2.0f), window_height);
         glActiveTexture(GL_TEXTURE0);
@@ -532,6 +531,8 @@ int main(int argc, char**argv)
             GL_RGBA, GL_UNSIGNED_BYTE, myRaytracer->frameBuffer.block);
         glBindVertexArray(RaytracerVAO);
         glDrawArrays(GL_TRIANGLES, 0, 3);
+
+        //Render
         if (launchRaytracer) {
             myRaytracer->Raytrace();
             launchRaytracer = false;
